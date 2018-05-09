@@ -1,0 +1,7 @@
+[worker]
+worker1 ansible_host=10.151.36.200 ansible_ssh_user=syukronrm ansible_become_pass=sandi
+worker1 ansible_host=10.151.36.193 ansible_ssh_user=syukronrm ansible_become_pass=sandi
+
+[master]
+10.151.36.194 ansible_ssh_user=syukronrm ansible_become_pass=sandi
+
