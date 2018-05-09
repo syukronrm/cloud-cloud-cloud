@@ -178,3 +178,9 @@ Hapus file `2018_04_21_175358_add_name_column_users.php` agar tidak error keika 
 
 #### Screenshot
 ![alt text](imgs/sekrinsut.png "Screenshot")
+
+##### References
+
+https://github.com/Vinelab/ansible-mysql
+
+https://gist.github.com/maldechavda/56eb764a95ce779611ebf18432b8cce0
