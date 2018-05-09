@@ -25,7 +25,7 @@ sudo apt-get install sudo
 
 Setelah itu, masukkan user syukronrm kepada group sudo
 ```bash
-sudo usermod -aG sudo,adm syukronrm
+usermod -aG sudo,adm syukronrm
 ```
 
 Pada semua host, generate ssh key dengan
