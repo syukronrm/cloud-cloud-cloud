@@ -18,6 +18,28 @@ Setelah itu, install python pada masing-masing remote server.
 sudo apt-get install python
 ```
 
+Pada server debian, agar bisa menjalankan sudo. Install `sudo`
+```bash
+sudo apt-get install sudo
+```
+
+Setelah itu, masukkan user syukronrm kepada group sudo
+```bash
+sudo usermod -aG sudo,adm syukronrm
+```
+
+Pada semua host, generate ssh key dengan
+```bash
+ssh-keygen
+```
+
+Tambahkan key setiap remote server,
+```bash
+ssh-copy-id syukronrm@10.151.36.193
+ssh-copy-id syukronrm@10.151.36.194
+ssh-copy-id syukronrm@10.151.36.200
+```
+
 ## 2. Setup Debian
 ```yaml
 - hosts: master
